@@ -1,0 +1,231 @@
+:root {
+  --first-title-color: #212121;
+  --second-title-color: #757575;
+  --axent-color: #2196f3;
+  --first-btn-color: #212121;
+  --second-btn-color: #ffffff;
+  --background-color: #f5f4fa;
+  --background: #2f303a;
+  --title-color: #ffffff;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--first-btn-color);
+}
+/* font-family: "Raleway", sans-serif; */
+
+.link {
+  text-decoration: none;
+  color: var(--first-title-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.blue-logo {
+  color: var(--axent-color);
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+/*------ header------ */
+
+.site-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+  color: var(--first-title-color);
+}
+
+.site-nav:hover,
+.site-nav:focus {
+  color: var(--axent-color);
+}
+
+.current-axent-color {
+  color: var(--axent-color);
+}
+
+.site-mailtel-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+  color: var(--second-title-color);
+}
+
+.site-mailtel-link:hover,
+.site-mailtel-link:focus {
+  color: var(--axent-color);
+}
+/*----- hero------ */
+.hero {
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
+  background: var(--background);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: calc(60 / 44);
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--title-color);
+}
+.hero-after-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  color: var(--first-title-color);
+}
+
+.hero-btn {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  color: var(--title-color);
+  background: var(--axent-color);
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #188ce8;
+}
+
+.hero-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  color: var(--second-title-color);
+}
+
+/* -----about-us----- */
+
+.about-us-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  letter-spacing: 0.03em;
+  color: var(--first-title-color);
+}
+.team {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  letter-spacing: 0.03em;
+  color: var(--first-title-color);
+  background-color: var(--background-color);
+}
+
+.our-team {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  letter-spacing: 0.03em;
+  color: var(--first-title-color);
+}
+
+.team-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--second-title-color);
+}
+
+/* -----footer----- */
+
+/* Footer bg */
+.footer {
+  background: var(--background);
+}
+
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
+  color: var(--title-color);
+}
+
+.addres-link-adres {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--title-color);
+}
+
+.addres-link-footer {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* ------portfolio.html----- */
+
+/* .visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+} */
+
+.btn {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--first-btn-color);
+  background-color: var(--background-color);
+}
+
+.btn-link:hover,
+.btn-link:focus {
+  color: var(--second-btn-color);
+  background-color: var(--axent-color);
+}
+
+.portfolio {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--first-title-color);
+}
+
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--second-title-color);
+}
