@@ -321,7 +321,7 @@ body {
 
 /* ------portfolio.html----- */
 
-/* .visually-hidden {
+.visually-hidden {
   position: absolute;
   white-space: nowrap;
   width: 1px;
@@ -332,7 +332,12 @@ body {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
-} */
+}
+
+.container-portfolio {
+  margin-top: 90px;
+  margin-bottom: 94px;
+}
 
 .btn {
   font-family: "Roboto";
@@ -343,6 +348,8 @@ body {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
+  border-radius: 4px;
+  margin-bottom: 50px;
   color: var(--first-btn-color);
   background-color: var(--background-color);
 }
@@ -352,12 +359,24 @@ body {
   color: var(--second-btn-color);
   background-color: var(--axent-color);
 }
+.btn-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
 
 .portfolio {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  text-align: left;
   color: var(--first-title-color);
 }
 
