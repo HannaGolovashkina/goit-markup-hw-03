@@ -65,7 +65,7 @@ body {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
 }
 
 .section {
@@ -377,7 +377,11 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
   text-align: left;
+  margin-bottom: 4px;
   color: var(--first-title-color);
+}
+.img-portfolio {
+  margin-bottom: 20px;
 }
 
 .portfolio-text {
