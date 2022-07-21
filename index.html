@@ -20,7 +20,7 @@
   <body>
     <header class="header">
       <div class="container">
-        <nav class="header-nav">
+        <nav class="header-nav header-logo">
           <a href="./index.html" class="logo link"
             ><span class="blue-logo">Web</span>Studio</a
           >
@@ -42,7 +42,8 @@
             </li>
           </ul>
         </nav>
-        <ul class="header-link list">
+        <!-- <div class="header-connect"> -->
+        <ul class="header-link list header-connect">
           <li class="header-mail link">
             <a href="mailto:info@devstudio.com" class="site-mailtel-link link"
               >info@devstudio.com</a
@@ -54,10 +55,11 @@
             >
           </li>
         </ul>
+        <!-- </div> -->
       </div>
     </header>
     <main>
-      <section class="hero section">
+      <section class="hero section hero-section">
         <div class="container hero-content">
           <h1 class="hero-title">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
           <button type="button" class="hero-btn">Заказать услугу</button>
@@ -65,7 +67,7 @@
       </section>
       <section class="section">
         <div class="container hero-after">
-          <ul class="list">
+          <ul class="list hero-wrap">
             <li class="link">
               <h3 class="hero-after-title">ВНИМАНИЕ К ДЕТАЛЯМ</h3>
               <p class="hero-text">
@@ -100,7 +102,7 @@
       <section class="about-us section">
         <div class="container">
           <h2 class="about-us-title">Чем мы занимаемся</h2>
-          <ul class="list">
+          <ul class="list img-about">
             <li class="link">
               <img
                 src="./images/imgcomputer.jpg"
@@ -131,53 +133,61 @@
       <section class="team section">
         <div class="container">
           <h2 class="team">Наша команда</h2>
-          <ul class="list">
+          <ul class="list team-wrap">
             <li class="link">
-              <img
-                src="./images/productdesigner1.jpg"
-                alt="product-designer"
-                width="270"
-                height="260"
-              />
-              <h3 class="our-team">Игорь Демьяненко</h3>
-              <p class="team-text">Product Designer</p>
+              <div class="team-container">
+                <img
+                  src="./images/productdesigner1.jpg"
+                  alt="product-designer"
+                  width="270"
+                  height="260"
+                />
+                <h3 class="our-team">Игорь Демьяненко</h3>
+                <p class="team-text">Product Designer</p>
+              </div>
             </li>
             <li class="link">
-              <img
-                src="./images/frontenddeveloper1.jpg"
-                alt="frontend-developer"
-                width="270"
-                height="260"
-              />
-              <h3 class="our-team">Ольга Репина</h3>
-              <p class="team-text">Frontend Developer</p>
+              <div class="team-container">
+                <img
+                  src="./images/frontenddeveloper1.jpg"
+                  alt="frontend-developer"
+                  width="270"
+                  height="260"
+                />
+                <h3 class="our-team">Ольга Репина</h3>
+                <p class="team-text">Frontend Developer</p>
+              </div>
             </li>
             <li class="link">
-              <img
-                src="./images/marketing1.jpg"
-                alt="marketing"
-                width="270"
-                height="260"
-              />
-              <h3 class="our-team">Николай Тарасов</h3>
-              <p class="team-text">Marketing</p>
+              <div class="team-container">
+                <img
+                  src="./images/marketing1.jpg"
+                  alt="marketing"
+                  width="270"
+                  height="260"
+                />
+                <h3 class="our-team">Николай Тарасов</h3>
+                <p class="team-text">Marketing</p>
+              </div>
             </li>
             <li class="link">
-              <img
-                src="./images/uidesigner1.jpg"
-                alt="uidesigner"
-                width="270"
-                height="260"
-              />
-              <h3 class="our-team">Михаил Ермаков</h3>
-              <p class="team-text">UI Designer</p>
+              <div class="team-container">
+                <img
+                  src="./images/uidesigner1.jpg"
+                  alt="uidesigner"
+                  width="270"
+                  height="260"
+                />
+                <h3 class="our-team">Михаил Ермаков</h3>
+                <p class="team-text">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
       </section>
     </main>
     <footer class="footer">
-      <div class="container">
+      <div class="container footer-cont">
         <a href="./index.html" class="footer-logo link"
           ><span class="blue-logo">Web</span>Studio</a
         >
