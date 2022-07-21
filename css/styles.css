@@ -43,6 +43,11 @@ button {
 img {
   display: block;
 }
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 body {
   font-family: "Roboto", sans-serif;
@@ -151,16 +156,17 @@ body {
   color: var(--axent-color);
 }
 /*----- hero------ */
-.hero {
-  width: 1200px;
-  /* height: 600px; */
-  /* left: 0px; */
-  /* top: 80px; */
-  /* text-align: center;
+/* .hero { */
+/* width: 1200px; */
+/* height: 600px; */
+/* left: 0px; */
+/* top: 80px; */
+/* text-align: center;
   background: var(--background); */
-}
+/* } */
 
 .hero-section {
+  max-width: 1200px;
   text-align: center;
   background: var(--background);
 }
@@ -180,7 +186,6 @@ body {
   max-width: 696px;
   /* margin-inline-start: 286px; */
   padding-bottom: 30px;
-  /* margin-bottom: 40px; */
   /* color: var(--title-color); */
 }
 
