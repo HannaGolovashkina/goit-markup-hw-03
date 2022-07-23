@@ -74,8 +74,11 @@ body {
 }
 
 .section {
-  padding-top: 94px;
+  /* padding-top: 94px; */
   padding-bottom: 94px;
+}
+.section-afterhero {
+  padding-top: 94px;
 }
 
 .blue-logo {
@@ -89,19 +92,19 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #000000;
+  margin-right: 93px;
 }
 
 /*------ header------ */
 
 .header {
   color: var(--title-color);
-  padding-top: 24px;
-  padding-bottom: 24px;
+  border-bottom: 25px;
 }
 
 .header-logo {
   display: flex;
-  gap: 93px;
+  align-items: center;
 }
 
 .header-link {
@@ -129,6 +132,7 @@ body {
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
+  display: block;
   padding-top: 32px;
   padding-bottom: 32px;
   color: var(--first-title-color);
@@ -166,16 +170,16 @@ body {
 /* } */
 
 .hero-section {
-  max-width: 1200px;
+  /* max-width: 1200px; */
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
   background: var(--background);
 }
 .hero-content {
-  padding-top: 200px;
-  padding-bottom: 200px;
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center; */
   color: var(--title-color);
 }
 
@@ -186,14 +190,14 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   max-width: 696px;
-  /* margin-inline-start: 286px; */
-  padding-bottom: 30px;
+  margin: auto;
+  margin-bottom: 30px;
   /* color: var(--title-color); */
 }
 
 .hero-after {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  /* padding-top: 94px;
+  padding-bottom: 94px; */
 }
 
 .hero-wrap {
@@ -236,12 +240,17 @@ body {
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
-  max-width: 270px;
+  /* width: 270px; */
   margin-bottom: 30px;
   color: var(--second-title-color);
 }
 
+.hero-link {
+  width: 270px;
+}
 /* -----about-us----- */
+.about-us {
+}
 
 .about-us-title {
   font-weight: 700;
@@ -256,7 +265,7 @@ body {
   display: flex;
   justify-content: center;
   gap: 30px;
-  padding-bottom: 94px;
+  /* padding-bottom: 94px; */
 }
 
 .team {
@@ -274,7 +283,13 @@ body {
   display: flex;
   justify-content: center;
   gap: 30px;
-  padding-bottom: 94px;
+  /* padding-bottom: 94px; */
+}
+.team-container {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .our-team {
@@ -282,7 +297,7 @@ body {
   font-size: 16px;
   line-height: calc(19 / 16);
   letter-spacing: 0.03em;
-  margin-top: 50px;
+  /* margin-top: 50px; */
   margin-bottom: 10px;
   color: var(--first-title-color);
 }
@@ -292,7 +307,7 @@ body {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
   color: var(--second-title-color);
 }
 
