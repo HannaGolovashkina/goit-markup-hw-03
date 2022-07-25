@@ -57,6 +57,7 @@ body {
 /* font-family: "Raleway", sans-serif; */
 section {
   width: 100vw;
+  /* or 100% */
 }
 
 .link {
