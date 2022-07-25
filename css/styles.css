@@ -399,6 +399,10 @@ body {
 .btn-wrap:not(last-caild) {
   margin-left: 8px;
 }
+.portfolio-div {
+  padding: 20px 24px;
+  border: 1px solid #eeeeee;
+}
 
 .portfolio-wrap {
   display: flex;
