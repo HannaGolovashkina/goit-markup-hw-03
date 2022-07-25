@@ -43,6 +43,7 @@ button {
 img {
   display: block;
 }
+
 main {
   display: flex;
   flex-direction: column;
@@ -54,6 +55,9 @@ body {
   color: var(--first-btn-color);
 }
 /* font-family: "Raleway", sans-serif; */
+section {
+  width: 100vw;
+}
 
 .link {
   text-decoration: none;
