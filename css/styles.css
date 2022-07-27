@@ -271,11 +271,14 @@ section {
   text-align: center;
   line-height: calc(42 / 36);
   letter-spacing: 0.03em;
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
+  padding-top: 94px;
   color: var(--first-title-color);
   background-color: var(--background-color);
 }
-
+.team-header {
+  margin-bottom: 50px;
+}
 .team-wrap {
   display: flex;
   justify-content: center;
@@ -312,11 +315,11 @@ section {
 
 /* Footer bg */
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background: var(--background);
 }
 .footer-cont {
-  padding-top: 60px;
-  padding-bottom: 60px;
   /* background: var(--background); */
 }
 
@@ -350,7 +353,7 @@ section {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.addres-footer {
+.addres-footer:not(:last-child) {
   /* display: block; */
   margin-bottom: 9px;
   /* gap: 9px; */
